@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+/* Set a max width for the body and center the content */
+body { 
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 960px; 
+    min-width: 640px; 
+    width: 95%; 
+    background-color: hsl(210, 60%, 90%);
+    font-family: Verdana, Geneva, sans-serif;
+    color: rgb(30, 60, 90);
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(20, 50, 80);
+    color: white;
+    font-size: 2em;
+}
+
+/* Horizontal Navigation Bar */
+nav {
+    background-color: rgb(180, 220, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(10, 40, 80);
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Highlight the background when hovering over navigation items */
+nav ul li a:hover {
+    background-color: rgba(0, 150, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Two-Column Layout */
+section#leftColumn {
+    clear: left; 
+    float: left; 
+    padding: 1.5em;
+    width: 33%; 
+    background-color: rgb(200, 230, 255);
+    border-right: 3px solid rgb(40, 90, 150);
+}
+
+section#rightColumn {
+    float: left; 
+    width: 67%; 
+    padding: 1.5em;
+}
+
+/* Image Styling */
+section#rightColumn img {
+    display: block; 
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgb(20, 50, 80);
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(0, 150, 255);
+}
+/* Make sure everything is inside a flexbox container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: auto;
+}
+
+/* Left Column Styling */
+#leftColumn {
+    width: 30%;
+    padding: 15px;
+    background-color: rgb(200, 230, 255);
+    border-right: 3px solid rgb(40, 90, 150);
+}
+
+/* Right Column Styling */
+#rightColumn {
+    width: 65%;
+    padding: 15px;
+    background-color: white;
+}
+
+/* Ensure proper clearing so footer doesn't overlap */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(20, 50, 80);
+    color: white;
+}
+/* Page Background */
+/* Page Background */
+body {
+    background-color: hsl(210, 60%, 90%); /* Light blue background */
+    color: rgb(30, 60, 90); /* Darker blue text */
+}
+
+/* Header */
+header {
+    background-color: rgb(20, 50, 80);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 2em;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgb(180, 220, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(10, 40, 80);
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Hover effect with background */
+nav ul li a:hover {
+    background-color: rgba(0, 150, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Two-Column Layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Left Column */
+#leftColumn {
+    width: 40%;
+    padding: 15px;
+}
+
+#leftColumn img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Right Column */
+#rightColumn {
+    width: 55%;
+    padding: 15px;
+    background-color: rgb(150, 200, 255);
+    border-radius: 5px;
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(20, 50, 80);
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
